@@ -1,8 +1,6 @@
-50		k
-10		alfa
-2		S
-5		L
-2,5		L1
-2,5		L2
--150	q
-400		T_inf
+2       Number of nodes
+50		Variable k
+10		Variable alfa
+2		Variable S
+5		Variable L
+-150	Variable q

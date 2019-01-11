@@ -4,9 +4,12 @@ public class Main
     {
         //System.out.println("Hello World!");
         //System.out.println("No to zaczynamy!");
-        System.out.println("Program wykona się dla danych: \n\n");
+        System.out.println("Program is working on this-> data: \n\n");
             GlobalData global = new GlobalData();
             global.loadData();
         System.out.println("\n\n");
+
+        //Calculations calc = new Calculations();
+        //calc.Calculations();
     }
 }
