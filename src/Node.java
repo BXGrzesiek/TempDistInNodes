@@ -1,15 +1,20 @@
-
-public class Node extends GlobalData
-{
-    double t;       // Temperatura w węźle
-    int id;            // Identyfikator węzła
-    int BC;        // 1-posiada warunek brzegowy 0-nie posiada warunku brzegowego
-
-    public Node(int id,int BC,int t)
+public class Node {
+    private static int count;
+    private int id;
+    private int condition;
+    Node(int condition)
     {
-        this.id=id;
-        this.BC=BC;
-        this.t=t;
+        this.id = this.count;
+        this.condition = condition;
+        this.count ++;
+    }
+    int returnId()
+    {
+        return this.id;
+    }
 
+    int returnCondition()
+    {
+        return this.condition;
     }
 }
