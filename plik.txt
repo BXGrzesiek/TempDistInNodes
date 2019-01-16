@@ -1,4 +1,4 @@
-2       Number of nodes
+6      Number of Nodes
 50		Variable k
 10		Variable alfa
 2		Variable S

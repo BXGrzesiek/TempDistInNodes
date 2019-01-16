@@ -1,9 +1,8 @@
-public class Main
+public class Main extends Grid
 {
     public static void main(String[] args)
     {
-        //System.out.println("Hello World!");
-        //System.out.println("No to zaczynamy!");
+
         System.out.println("Program is working on this-> data: \n\n");
             GlobalData global = new GlobalData();
             global.loadData();
@@ -11,5 +10,11 @@ public class Main
 
         //Calculations calc = new Calculations();
         //calc.Calculations();
+
+        Grid grid1 = new Grid();
+        grid1.grid(nNode);
+
+        Matrix matrix = new Matrix();
+        matrix.utworz();
     }
 }

@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class GlobalData extends Node
+public class GlobalData
 {
     public static int k;
     public static int alfa;
@@ -10,6 +10,7 @@ public class GlobalData extends Node
     public static int L;
     public static int q;
     public static double c;
+    public static int nNode;
 //    public static double L_1;
 //    public static double L_2;
 //    public int t_inf;
@@ -20,8 +21,8 @@ public class GlobalData extends Node
         try
         {
             Scanner scanner = new Scanner(new File("plik.txt"));
-            id = scanner.nextInt();             scanner.nextLine();
-            System.out.println("Number of nodes \t=\t"+id);
+            nNode = scanner.nextInt();             scanner.nextLine();
+            System.out.println("Number of Nodes \t=\t"+nNode);
             k = scanner.nextInt();              scanner.nextLine();
             System.out.println("Variable k \t\t\t= \t"+k);
             L = scanner.nextInt();              scanner.nextLine();
