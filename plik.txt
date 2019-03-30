@@ -1,7 +1,7 @@
 2       Variable S
-10		Variable alfa
-5		Variable L
+10		  Variable alfa
+5		    Variable L
 4       Number of Nodes
-50		Variable k
--150	Variable q
+50		  Variable k
+-150	  Variable q
 400     Variable t_inf
